@@ -1,10 +1,14 @@
-let star = '*';
-let c = '*';
+let str = '';
+let c = '';
 for (let i = 0 ; i < 4; i++){
-   star += '*';
-   c = `${c}\n${star}`
+   str += '*';
+   c = `${c}${str}\n`;
 }
 console.log(c);
+// c1 = *\n
+// c2 = c1**\n
+// c3 = c2***\n
+// c4 = c3****\n
 
 //Second way
 //STAR PATTERN
